@@ -51,3 +51,12 @@ address +=", Apartment 4B"
 # Step 7
 # Now create a variable named employee_age and assign it the integer 28.
 employee_age = 28
+
+# Step 8
+# Now, you want to create a string that displays the employee's age.
+
+# Start by creating a variable employee_info and assign it the result of concatenating, using the + operator:
+
+# the full_name variable.
+# a string consisting of the characters is preceded and followed by a space.
+employee_info = full_name + " is "
