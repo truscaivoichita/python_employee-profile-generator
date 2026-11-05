@@ -73,4 +73,11 @@ employee_age = 28
 # my_num = str(42)
 # print(type(my_num)) # <class 'str'>
 # Update your employee_info assignment to convert employee_age to a string using str(employee_age).
-employee_info = full_name + " is " + str(employee_age)
+# employee_info = full_name + " is " + str(employee_age)
+
+# Step 11
+# Now complete the sentence by updating the employee_info assignment to also concatenate the string  years old at the end, using the + operator. Remember to include a space at the beginning of your string.
+
+# Finally, print employee_info.
+employee_info = full_name + " is " + str(employee_age) + " years old"
+print(employee_info)
