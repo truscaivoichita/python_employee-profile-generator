@@ -59,4 +59,9 @@ employee_age = 28
 
 # the full_name variable.
 # a string consisting of the characters is preceded and followed by a space.
-employee_info = full_name + " is "
+employee_info = full_name + " is " + employee_age
+
+# Step 9
+# Update the employee_info assignment to also concatenate employee_age at the end, using the + operator.
+
+# Once you've done so, you'll see a TypeError in the terminal. In the next step, you'll work on fixing it.
