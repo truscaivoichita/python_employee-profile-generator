@@ -59,9 +59,18 @@ employee_age = 28
 
 # the full_name variable.
 # a string consisting of the characters is preceded and followed by a space.
-employee_info = full_name + " is " + employee_age
 
 # Step 9
 # Update the employee_info assignment to also concatenate employee_age at the end, using the + operator.
 
 # Once you've done so, you'll see a TypeError in the terminal. In the next step, you'll work on fixing it.
+# Step 10
+# As you can see, Python raised a TypeError: can only concatenate str (not "int") to str. This happens because Python does not allow you to concatenate text (strings) and numbers (integers) directly.
+
+# To fix this, you must convert the number to a string first using the str() function, which returns the string version of a value:
+
+# Example Code
+# my_num = str(42)
+# print(type(my_num)) # <class 'str'>
+# Update your employee_info assignment to convert employee_age to a string using str(employee_age).
+employee_info = full_name + " is " + str(employee_age)
