@@ -8,3 +8,13 @@
 first_name = "John"
 last_name ="Doe"
 print(first_name, last_name)
+
+# Step 2
+# In Python, you can combine strings using the + operator. This is called concatenation. Here is an example:
+
+# Example Code
+# greeting = 'Hello' + 'World'
+# print(greeting) # Output: HelloWorld
+# Create a variable full_name by concatenating first_name and last_name. Then print full_name.
+full_name = first_name + last_name
+print(full_name)
