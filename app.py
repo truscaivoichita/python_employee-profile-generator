@@ -81,3 +81,13 @@ employee_age = 28
 # Finally, print employee_info.
 employee_info = full_name + " is " + str(employee_age) + " years old"
 print(employee_info)
+
+# Step 12
+# Now you're going to use the str() function one more time. Just like with age, you must convert any numeric variable to a string before concatenating it with other text.
+
+# Create a variable named experience_years and assign it the integer 5.
+
+# Then, create a variable experience_info. Assign it a string formed by concatenating 'Experience: ', the experience_years variable (converted to a string), and ' years', using the + operator. Print the result to the terminal.
+experience_years = 5
+experince_info = "Experience: " + str(experience_years) + " years"
+print(experince_info)
