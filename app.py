@@ -7,7 +7,7 @@
 # Create a variable first_name which stores the string John and a variable last_name which stores the string Doe. Then print first_name and last_name.
 first_name = "John"
 last_name ="Doe"
-print(first_name, last_name)
+# print(first_name, last_name)
 
 # Step 2
 # In Python, you can combine strings using the + operator. This is called concatenation. Here is an example:
@@ -17,7 +17,7 @@ print(first_name, last_name)
 # print(greeting) # Output: HelloWorld
 # Create a variable full_name by concatenating first_name and last_name. Then print full_name.
 full_name = first_name + ' ' + last_name
-print(full_name)
+# print(full_name)
 
 # Step 3
 # If you concatenate two strings like 'John' + 'Doe', the result is 'JohnDoe' with no space. To fix this, you need to concatenate a string containing a space (' ') between them.
@@ -41,4 +41,9 @@ address = "123 Main Street"
 
 # Use the += operator to add the string , Apartment 4B to your address variable.
 address +=", Apartment 4B"
-print(address)
+# print(address)
+
+# Step 6
+# The output in the terminal is getting crowded. Before you continue, it's time to clean it up.
+
+# Remove all the print() statements from your code.
