@@ -27,4 +27,18 @@ print(full_name)
 # Step 4
 # Next, create a variable address to store the employee's address. Assign it the string 123 Main Street, and finally print address.
 address = "123 Main Street"
+
+# Step 5
+# Now, your address seems incomplete. You also want to add the apartment number where the employee lives, so you should modify the variable.
+
+# When you want to add content to the end of an existing string variable, you can use the augmented assignment operator, +=. This is shorter than writing var = var + 'new text'. For example:
+
+# Example Code
+# greeting = 'Hello'
+# greeting += ' World'
+# print(greeting) # Hello World
+# Remember that strings are immutable, so this operation does not change the original string. Instead it creates a new string and reassigns it to the variable.
+
+# Use the += operator to add the string , Apartment 4B to your address variable.
+address +=", Apartment 4B"
 print(address)
