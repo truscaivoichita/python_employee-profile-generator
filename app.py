@@ -23,3 +23,8 @@ print(full_name)
 # If you concatenate two strings like 'John' + 'Doe', the result is 'JohnDoe' with no space. To fix this, you need to concatenate a string containing a space (' ') between them.
 
 # Update your full_name variable so it concatenates the first_name variable, a space (' '), and the last_name variable, in that order, using the + operator.
+
+# Step 4
+# Next, create a variable address to store the employee's address. Assign it the string 123 Main Street, and finally print address.
+address = "123 Main Street"
+print(address)
