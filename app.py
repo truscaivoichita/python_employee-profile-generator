@@ -135,3 +135,16 @@ print(employee_card)
 employee_code = "DEV-2026-JD-001"
 department = employee_code[0:3]
 print(department)
+
+# Step 17
+# You can slice from any part of the string, not just the beginning. And it is helpful in many cases.
+
+# Create a variable year_code and assign it the slice of employee_code from index 4 to 8. This will extract 2026.
+
+# Then create a variable initials and assign it the slice of employee_code from index 9 to 11. This will extract JD.
+
+# Finally, print both variables to the terminal.
+year_code = employee_code[4:8]
+initials = employee_code[9:11]
+print(year_code)
+print(initials)
